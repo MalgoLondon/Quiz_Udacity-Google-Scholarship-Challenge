@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Body Shape Quiz</string>
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="activity_main_welcome">Would you like to receive advice tailored to your body type? The quiz below is for you:</string>
+    <string name="name_input">Please type your name</string>
+    <string name="gender_input">Which gender do you identify yourself with:</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="shoulders_question_first">Are your shoulders narrower than your hips?</string>
+    <string name="yes">yes</string>
+    <string name="equal">equal</string>
+    <string name="no">no</string>
+    <string name="triangle_body_shape_second">Your body shape is triangle.</string>
+    <string name="inverted_triangle_body_shape_third">Your body shape is inverted triangle</string>
+    <string name="comment_fourth">We need to place a few more questions to determine your body type...</string>
+    <string name="waist_question_fourth">Do you have defined waist?</string>
+    <string name="hourglass_body_shape_fifth">Your body shape is hourglass</string>
+    <string name="stomach_question_sixth">Is your stomach round and bust full?</string>
+    <string name="rectangle_body_shape_seventh">Your body shape is rectangle</string>
+    <string name="oval_body_shape_eight">Your body shape is oval</string>
+    <string name="find_out_more_button">Find out more...</string>
+    <string name="triangle_tops_first">TOPS: show-off your slender upper body, create a fuller illusion at the right places to balance out the wider hips</string>
+    <string name="triangle_bottoms_first">BOTTOMS: focus on pants which make smaller your lower half. Dark colors, straight lines are best.</string>
+    <string name="triangle_shoes_first">SHOES: wear heels to lengthen the figure</string>
+    <string name="inverted_triangle_tops">TOPS: Go for tops that lighten or slim down your upper half and minimize your broad shoulders, but without erasing your curves or the bust.</string>
+    <string name="inverted_triangle_bottoms">BOTTOMS: Aim to balace your upper half adding more curves.</string>
+    <string name="inverted_triangle_shoes">SHOES: wear anything you like</string>
+    <string name="comment_first_activity">Your first question...</string>
+    <string name="comment_first_activity_welcome">Welcome </string>
+    <string name="comment_first_activity_men">You are taking the quiz for men body shapes. Your first question...</string>
+    <string name="image_descr_inverted_triangle_female">inverted_triangle_female</string>
+
+</resources>
