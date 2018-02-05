@@ -14,42 +14,33 @@
             style="@style/QuestionBackground"
             android:text="@string/inverted_triangle_body_shape_third" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="#FFC107"
-            android:text="@string/find_out_more_button" />
-
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:id="@+id/image_view_inverted_triangle"
+                style="@style/ImageBodyShape"
                 android:layout_weight="1"
                 android:contentDescription="@string/image_descr_inverted_triangle_female"
-                android:scaleType="fitStart"
                 android:src="@drawable/inverted_triangle_body_shape" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
                 <TextView
+                    android:id="@+id/text_view_tops_inv_triangle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/image_view_inverted_triangle"
                     android:padding="10dp"
                     android:text="@string/inverted_triangle_tops"
                     android:textSize="18sp" />
 
                 <TextView
+                    android:id="@+id/text_view_bottoms_inv_triangle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_tops_inv_triangle"
+                    android:layout_toRightOf="@id/image_view_inverted_triangle"
                     android:padding="5dp"
                     android:text="@string/inverted_triangle_bottoms"
                     android:textSize="18sp" />
@@ -57,10 +48,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_bottoms_inv_triangle"
+                    android:layout_toRightOf="@id/image_view_inverted_triangle"
                     android:padding="5dp"
                     android:text="@string/inverted_triangle_shoes"
                     android:textSize="18sp" />
-            </LinearLayout>
-        </LinearLayout>
+
+        </RelativeLayout>
+
+        <Button
+            style="@style/FindOutMoreButton"
+            android:text="@string/find_out_more_button" />
     </LinearLayout>
 </ScrollView>

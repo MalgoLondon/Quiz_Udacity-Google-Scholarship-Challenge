@@ -1,79 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.bodyshapequiz.EightActivity">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
-
-
-    <TextView
-        style="@style/QuestionBackground"
-        android:text="@string/oval_body_shape_eight"
-
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/find_out_more_button"
-        android:background="#FFC107"
-        android:layout_gravity="center_horizontal"
-
-        />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="vertical">
 
+        <TextView
+            style="@style/QuestionBackground"
+            android:text="@string/oval_body_shape_eight" />
 
-        <ImageView
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/oval_body_shape"
-            android:scaleType="fitStart"/>
-
-
-
-        <LinearLayout
-            android:layout_weight="1"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:textSize="18dp"
-                android:text="TOPS: find tops which add volume/emphasize your shoulders and bust while defining your waiistline"
-                />
+            <ImageView
+                android:id="@+id/image_view_oval"
+                style="@style/ImageBodyShape"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_descr_oval_female"
+                android:src="@drawable/oval_body_shape" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp"
-                android:text="BOTTOMS: avoid extra bulkiness."
+                android:id="@+id/text_view_tops_oval"
+                style="@style/SmallTextBoxes"
+                android:layout_toRightOf="@+id/image_view_oval"
 
-                />
+                android:text="@string/oval_tops" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp"
-                android:textSize="18dp"
-                android:text="SHOES: all of them!"
-                />
+                android:id="@+id/text_views_bottoms_oval"
+                style="@style/SmallTextBoxes"
+                android:layout_below="@id/text_view_tops_oval"
+                android:layout_toRightOf="@+id/image_view_oval"
+                android:text="@string/oval_bottoms" />
 
-        </LinearLayout>
+            <TextView
+                style="@style/SmallTextBoxes"
+                android:layout_below="@id/text_views_bottoms_oval"
+                android:layout_toRightOf="@+id/image_view_oval"
+                android:text="@string/oval_shoes" />
+        </RelativeLayout>
+
+        <Button
+            style="@style/FindOutMoreButton"
+            android:text="@string/find_out_more_button" />
     </LinearLayout>
-</LinearLayout>
 </ScrollView>

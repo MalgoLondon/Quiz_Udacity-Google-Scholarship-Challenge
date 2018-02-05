@@ -24,7 +24,17 @@
         <activity android:name=".SeventhActivity"></activity>
         <activity android:name=".SixthActivity"></activity>
         <activity android:name=".EightActivity"></activity>
-        <activity android:name=".FirstActivityMen"></activity>
+        <activity android:name=".FirstActivityMen2"></activity>
+        <activity android:name=".SecondActivityMen"></activity>
+        <activity android:name=".ThirdActivityMen"></activity>
+        <activity android:name=".FourthActivityMen"></activity>
+        <activity android:name=".FifthActivityMen"></activity>
+        <activity android:name=".FifthActivityMen2"></activity>
+        <activity android:name=".SixthActivityMen"></activity>
+        <activity android:name=".SeventhActivityMen"></activity>
+        <activity android:name=".EightActivityMen"></activity>
+        <activity android:name=".NinthActivityMen"></activity>
+
     </application>
 
 </manifest>

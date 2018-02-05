@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.bodyshapequiz.SecondActivity">
+    tools:context="com.example.android.bodyshapequiz.ThirdActivityMen">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+
         <TextView
             style="@style/QuestionBackground"
-            android:text="@string/triangle_body_shape_second" />
+            android:text="@string/trapezoid_body_shape" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -20,35 +22,27 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/image_view_triangle"
+                android:id="@+id/image_view_trapezoid_m"
                 style="@style/ImageBodyShape"
-                android:contentDescription="image_descr_triangle_female"
-                android:src="@drawable/triangle_body_shape" />
+                android:contentDescription="@string/image_descr_trapezoid_male"
+                android:src="@drawable/trapezoid_body_shape_men" />
 
             <TextView
-                android:id="@+id/text_view_tops"
+                android:id="@+id/text_view_tops_trapezoid_m"
                 style="@style/SmallTextBoxes"
-                android:layout_toRightOf="@id/image_view_triangle"
-                android:text="@string/triangle_tops_first" />
-
-            <TextView
-                android:id="@+id/text_view_bottoms"
-                style="@style/SmallTextBoxes"
-                android:layout_below="@id/text_view_tops"
-                android:layout_toRightOf="@id/image_view_triangle"
-                android:text="@string/triangle_bottoms_first" />
+                android:layout_toRightOf="@id/image_view_trapezoid_m"
+                android:text="@string/trapezoid_tops" />
 
             <TextView
                 style="@style/SmallTextBoxes"
-                android:layout_below="@id/text_view_bottoms"
-                android:layout_toRightOf="@id/image_view_triangle"
-                android:text="@string/triangle_shoes_first" />
+                android:layout_below="@id/text_view_tops_trapezoid_m"
+                android:layout_toRightOf="@id/image_view_trapezoid_m"
+                android:text="@string/trapezoid_bottoms" />
 
         </RelativeLayout>
 
         <Button
             style="@style/FindOutMoreButton"
             android:text="@string/find_out_more_button" />
-
     </LinearLayout>
 </ScrollView>

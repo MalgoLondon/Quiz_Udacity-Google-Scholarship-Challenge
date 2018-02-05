@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,58 +10,47 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-
         <TextView
             style="@style/QuestionBackground"
-            android:text="@string/rectangle_body_shape_seventh" />
+            android:text="Your body shape is rectangle" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="#FFC107"
-            android:text="@string/find_out_more_button" />
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:id="@+id/image_view_rectangle"
+                style="@style/ImageBodyShape"
                 android:layout_weight="1"
-                android:scaleType="fitStart"
+                android:contentDescription="@string/image_descr_rectangle_female"
                 android:src="@drawable/rectangle_body_shape" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="TOPS: you want tops to create more curves and more feminine silouette by defining the waist"
-                    android:textSize="18sp" />
+                    android:id="@+id/text_view_tops_rectangle"
+                    style="@style/SmallTextBoxes"
+                    android:layout_toRightOf="@id/image_view_rectangle"
+                    android:text="@string/rectangle_tops" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:text="BOTTOMS: aim to add curves proportionate to your upper body look"
-                    android:textSize="18sp" />
+                    android:id="@+id/text_view_bottoms_rectangle"
+                    style="@style/SmallTextBoxes"
+                    android:layout_below="@id/text_view_tops_rectangle"
+                    android:layout_toRightOf="@id/image_view_rectangle"
+                    android:text="@string/rectangle_bottoms" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:text="SHOES: all of them!"
-                    android:textSize="18sp" />
+                    style="@style/SmallTextBoxes"
+                    android:layout_below="@id/text_view_bottoms_rectangle"
+                    android:layout_toRightOf="@id/image_view_rectangle"
+                    android:text="@string/rectangle_shoes" />
+        </RelativeLayout>
 
-            </LinearLayout>
-        </LinearLayout>
+        <Button
+            style="@style/FindOutMoreButton"
+            android:text="@string/find_out_more_button" />
     </LinearLayout>
 </ScrollView>

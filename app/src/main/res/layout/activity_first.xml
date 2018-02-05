@@ -33,17 +33,18 @@
             android:src="@drawable/icon_likeup"
             />
         <ImageButton
-            android:id="@+id/button_no"
-            style="@style/ThreeIcons"
-            android:contentDescription="@string/no"
-            android:src="@drawable/icon_likedown"
-            />
-        <ImageButton
             android:id="@+id/button_equal"
             style="@style/ThreeIcons"
             android:contentDescription="@string/equal"
             android:src="@drawable/equal"
             />
+
+        <ImageButton
+            android:id="@+id/button_no"
+            style="@style/ThreeIcons"
+            android:contentDescription="@string/no"
+            android:src="@drawable/icon_likedown" />
+
     </LinearLayout>
 </LinearLayout>
 </ScrollView>

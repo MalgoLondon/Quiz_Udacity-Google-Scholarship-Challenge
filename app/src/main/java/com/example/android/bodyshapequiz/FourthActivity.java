@@ -1,13 +1,15 @@
 package com.example.android.bodyshapequiz;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
 
 public class FourthActivity extends AppCompatActivity {
+
+    //defining variables
     int bodyTypeIndicator;
     ImageButton yesButton;
     ImageButton noButton;
@@ -24,7 +26,7 @@ public class FourthActivity extends AppCompatActivity {
          * it switches to a next screen
          */
 
-        yesButton = (ImageButton) findViewById(R.id.button_yes);
+        yesButton = findViewById(R.id.button_yes);
         yesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,7 +42,7 @@ public class FourthActivity extends AppCompatActivity {
          * it sets the variable bodyTypeIndicator to a new value
          * it switches to a next screen
          */
-        noButton = (ImageButton) findViewById(R.id.button_no);
+        noButton = findViewById(R.id.button_no);
         noButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
