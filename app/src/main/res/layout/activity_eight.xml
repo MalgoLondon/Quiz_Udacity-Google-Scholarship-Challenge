@@ -49,6 +49,7 @@
 
         <Button
             style="@style/FindOutMoreButton"
-            android:text="@string/find_out_more_button" />
+            android:text="@string/find_out_more_button"
+            android:id="@+id/button_more"/>
     </LinearLayout>
 </ScrollView>

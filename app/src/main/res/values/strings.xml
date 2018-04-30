@@ -26,7 +26,7 @@
     <string name="inverted_triangle_bottoms">BOTTOMS: Aim to balace your upper half adding more curves.</string>
     <string name="inverted_triangle_shoes">SHOES: All of them!</string>
     <string name="comment_first_activity">Your first question...</string>
-    <string name="comment_first_activity_welcome">Welcome  </string>
+    <string name="comment_first_activity_welcome">Welcome&#160;</string>
     <string name="comment_first_activity_men"> You are taking the quiz for men body shapes. Your first question...</string>
     <string name="image_descr_inverted_triangle_female">inverted_triangle_female</string>
     <string name="rectangle_tops">TOPS: You want to create more curves, more feminine silouette by defining the waist</string>
@@ -63,5 +63,7 @@
     <string name="triangle_body_shape_men">Your body shape is triangle</string>
     <string name="triangle_tops_men">TOPS: Wear vertical stripes and bright colors above the waistline on shirts or sweaters. Jackets with structured shoulders and single-brested suits will look good on you.</string>
     <string name="triangle_bottoms_men">BOTTOMS: Wear straight leg / regular fits in solid colours.</string>
+    <string name="e_mail_address">Please enter your e-mail address here</string>
+    <string name="subscribe_info_box">Would you like to receive more information about your body shape? Please subscribe to our info box below. </string>
 
 </resources>

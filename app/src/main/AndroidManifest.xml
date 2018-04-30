@@ -16,25 +16,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FirstActivity"></activity>
-        <activity android:name=".SecondActivity"></activity>
-        <activity android:name=".ThirdActivity"></activity>
-        <activity android:name=".FourthActivity"></activity>
-        <activity android:name=".FifthActivity"></activity>
-        <activity android:name=".SeventhActivity"></activity>
-        <activity android:name=".SixthActivity"></activity>
-        <activity android:name=".EightActivity"></activity>
-        <activity android:name=".FirstActivityMen2"></activity>
-        <activity android:name=".SecondActivityMen"></activity>
-        <activity android:name=".ThirdActivityMen"></activity>
-        <activity android:name=".FourthActivityMen"></activity>
-        <activity android:name=".FifthActivityMen"></activity>
-        <activity android:name=".FifthActivityMen2"></activity>
-        <activity android:name=".SixthActivityMen"></activity>
-        <activity android:name=".SeventhActivityMen"></activity>
-        <activity android:name=".EightActivityMen"></activity>
-        <activity android:name=".NinthActivityMen"></activity>
-
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".FourthActivity" />
+        <activity android:name=".FifthActivity" />
+        <activity android:name=".SeventhActivity" />
+        <activity android:name=".SixthActivity" />
+        <activity android:name=".EightActivity" />
+        <activity android:name=".FirstActivityMen2" />
+        <activity android:name=".SecondActivityMen" />
+        <activity android:name=".ThirdActivityMen" />
+        <activity android:name=".FourthActivityMen" />
+        <activity android:name=".FifthActivityMen" />
+        <activity android:name=".FifthActivityMen2" />
+        <activity android:name=".SixthActivityMen" />
+        <activity android:name=".SeventhActivityMen" />
+        <activity android:name=".EightActivityMen" />
+        <activity android:name=".NinthActivityMen" />
+        <activity android:name=".EmailActivity"></activity>
     </application>
 
 </manifest>

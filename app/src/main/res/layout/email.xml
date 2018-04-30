@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.bodyshapequiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+
+        <TextView
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/subscribe_info_box"
+            android:textSize="20sp"
+            android:textColor="#616161"
+            />
+
+
+        <EditText
+            style="@style/AppTheme"
+            android:id="@+id/emailsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/e_mail_address"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:padding="25dp"
+            />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="subscribe"
+            android:contentDescription="subscribe"
+            android:layout_margin="18dp"
+            android:padding="18dp"
+            android:textSize="25sp"
+            android:onClick="submitEmail"
+            />
+
+    </LinearLayout>
+</ScrollView>

@@ -42,6 +42,7 @@
         </RelativeLayout>
 
         <Button
+            android:id="@+id/button_more"
             style="@style/FindOutMoreButton"
             android:text="@string/find_out_more_button" />
     </LinearLayout>
